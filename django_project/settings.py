@@ -30,15 +30,22 @@ INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     "django.contrib.sites",
+    
     # Third-party
     "allauth",
     "allauth.account",
     "crispy_forms",
     "crispy_bootstrap5",
     "debug_toolbar",
+
     # Local
     "accounts",
     "pages",
+    "Fin",
+    "Frontside",
+    "GoalsAndSprints",
+    "Reviews",
+    "TeamMeeting"
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#middleware
